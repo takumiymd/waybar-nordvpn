@@ -14,13 +14,13 @@ A lightweight Waybar custom module that displays the current NordVPN connection 
 
 ## Output
 When connected: 
-VPN: <Country>-<City> up
+VPN: Japan-Tokyo up
 
 When disconnected:
 VPN: down
 
 When an error occurs (e.g. NordVPN CLI not found): 
-VPN: !
+VPN: !!
 
 ## Controls
 Mouse and touchpad interactions supported by the Waybar module:
