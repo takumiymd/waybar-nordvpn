@@ -67,7 +67,11 @@ if [[ "$connection_state" == "Connected" ]]; then
   protocol="$(printf '%s\n' "$status_output" | awk -F': ' '/^Current protocol:/{print $2; exit}')"
 
   text="${PREFIX} ${country}-${city} up"
-  tooltip="NordVPN: Connected\n${country}, ${city}\nIP: ${ip}\nProtocol: ${protocol}"
+  tooltip="
+  NordVPN: Connected
+  Connection: ${country}, ${city}
+  IP: ${ip}
+  Protocol: ${protocol}"
 
   printf '{"text":%s,"class":"connected","tooltip":%s}\n' \
     "$(json_escape "$text")" "$(json_escape "$tooltip")"
