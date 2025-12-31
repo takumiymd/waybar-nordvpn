@@ -13,6 +13,7 @@ A lightweight Waybar custom module that displays the current NordVPN connection 
 - Waybar
 - NordVPN CLI (`nordvpn`)
 - Bash or POSIX-compatible shell
+- python3
 
 
 ## Output
