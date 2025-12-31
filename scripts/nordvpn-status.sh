@@ -83,8 +83,8 @@ fi
 # ------------------------------------------------------------
 if [[ "$connection_state" == "Disconnected" ]]; then
   text="${PREFIX} down"
-  tooltip=
-  "NordVPN: Disconnected
+  tooltip="
+  NordVPN: Disconnected
   Right click: connect
   Middle click: disconnect"
 
@@ -97,7 +97,9 @@ fi
 # Unknown or unexpected state fallback
 # ------------------------------------------------------------
 text="${PREFIX} ${ERROR_MARK}"
-tooltip="NordVPN status unavailable:\n${status_output}"
+tooltip="
+NordVPN status unavailable:
+${status_output}"
 
 printf '{"text":%s,"class":"error","tooltip":%s}\n' \
   "$(json_escape "$text")" "$(json_escape "$tooltip")"
