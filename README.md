@@ -23,7 +23,8 @@ VPN: Japan-Tokyo up <br />
 
 When disconnected:
 VPN: down <br />
-<img width="174" height="66" alt="screenshot-2025-12-30_16-30-55" src="https://github.com/user-attachments/assets/e346bba5-5bb7-44d1-b27f-1ed256842690" />
+<img width="450" height="264" alt="screenshot-2025-12-30_17-42-35" src="https://github.com/user-attachments/assets/51bf54b6-e885-429c-9497-fc77303d6f6f" />
+
 
 When an error occurs (e.g. NordVPN CLI not found): 
 VPN: !! <br />
