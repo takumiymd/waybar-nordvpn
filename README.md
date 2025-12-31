@@ -42,20 +42,40 @@ Mouse and touchpad interactions supported by the Waybar module:
 
 
 ## Directory Structure
+<<<<<<< HEAD
 ~/.config/waybar/
 ├── config.jsonc
 ├── style.css
 └── scripts/
+=======
+```text
+~/.config/waybar/ 
+├── config.jsonc 
+├── style.css 
+└── scripts/ 
+>>>>>>> 8010821 (Update README.md)
     └── nordvpn-status.sh
+```
 
 
 ## Setup
 1. Copy `nordvpn-status.sh` into:
+<<<<<<< HEAD
    ~/.config/waybar/scripts/
 
 2. Make the script executable:
+=======
+   ```text
+   ~/.config/waybar/scripts/
+   ```
+   
+3. Make the script executable:
+   ```bash
+>>>>>>> 8010821 (Update README.md)
    chmod +x ~/.config/waybar/scripts/nordvpn-status.sh
+   ```
 
+<<<<<<< HEAD
 3. Add the following to your Waybar `config.jsonc`:
 "custom/vpn": {
   "exec": "~/.config/waybar/scripts/nordvpn-status.sh",
@@ -65,7 +85,20 @@ Mouse and touchpad interactions supported by the Waybar module:
   "on-click": "nordvpn status",
   "on-click-right": "nordvpn connect",
   "on-click-middle": "nordvpn disconnect"
+=======
+5. Add the following to your Waybar `config.jsonc`:
+```jsonc
+"custom/vpn": { 
+  "exec": "~/.config/waybar/scripts/nordvpn-status.sh", 
+  "interval": 5, 
+  "return-type": "json", 
+  "format": "{}", 
+  "on-click": "nordvpn status", 
+  "on-click-right": "nordvpn connect", 
+  "on-click-middle": "nordvpn disconnect" 
+>>>>>>> 8010821 (Update README.md)
 }
+```
 
 
 ## License
