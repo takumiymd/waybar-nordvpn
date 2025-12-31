@@ -23,7 +23,9 @@ VPN: down <br />
 
 
 When an error occurs (e.g. NordVPN CLI not found): 
-VPN: !!
+VPN: !! <br />
+<img width="118" height="64" alt="image" src="https://github.com/user-attachments/assets/75ad6551-f2e9-40f6-9a30-c415b9856bab" />
+
 
 Hovering over the VPN section displays detailed connection information, such as server location and status.
 <img width="660" height="318" alt="screenshot-2025-12-30_16-34-57" src="https://github.com/user-attachments/assets/6c67ba0c-664c-4ae7-8b74-5fe2f864ab9a" />
