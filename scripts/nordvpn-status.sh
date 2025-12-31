@@ -83,7 +83,10 @@ fi
 # ------------------------------------------------------------
 if [[ "$connection_state" == "Disconnected" ]]; then
   text="${PREFIX} down"
-  tooltip="NordVPN: Disconnected\nRight click: connect\nMiddle click: disconnect"
+  tooltip=
+  "NordVPN: Disconnected
+  Right click: connect
+  Middle click: disconnect"
 
   printf '{"text":%s,"class":"disconnected","tooltip":%s}\n' \
     "$(json_escape "$text")" "$(json_escape "$tooltip")"
